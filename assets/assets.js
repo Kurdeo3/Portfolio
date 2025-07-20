@@ -53,6 +53,9 @@ import java from './java.png';
 import linkedin from './linkedin.png';
 import instagram from './instagram.png';
 import mongo_db from './mongo_db.png';
+import nextjs from './nextjs.png';
+import vercel from './vercel.png';
+import framermotion from './framermotion.png';
 
 export const assets = {
     user_image,
@@ -109,10 +112,44 @@ export const assets = {
     java,
     linkedin,
     instagram,
-    mongo_db
+    mongo_db,
+    nextjs,
+    vercel,
+    framermotion
 };
 
 export const workData = [
+    {
+        title: 'Website Padukuhan Jarah III',
+        description: 'Padukuhan Jarah III Website is a village information and promotion platform built using Laravel, MySQL, and Tailwind CSS, designed to help the village share important information and showcase its local resources to the public. The website features sections for the village profile, local MSMEs (Micro, Small, and Medium Enterprises), news updates, population data, and photo galleries. It includes an admin dashboard that allows the village head to manage content easily—adding, updating, or deleting data related to population, MSMEs, news, and gallery. This system not only supports transparency and efficient data management but also serves as a digital tool to promote the village identity, economy, and community initiatives.',
+        link:'https://github.com/Kurdeo3/Jarah_III.git',
+        bgImages: [
+        '/cover_jarah3.png'
+        ],
+        techIcons: [
+            assets.php,
+            assets.laravel,
+            assets.mysql,
+            assets.tailwind
+        ]
+    },
+
+    {
+        title: 'Portfolio Website',
+        description: 'Personal Portfolio Website is a modern, responsive platform built using Next.js, React, Tailwind CSS, and Framer Motion to showcase the projects I’ve developed and the ones I’m currently working on. Designed with smooth animations and a clean UI, this website highlights my skills, experience, and development journey in an interactive and user-friendly manner. I build this project as a personal brand hub and digital resume, enabling potential collaborators, employers, or clients to explore my work in a professional and engaging way.',
+        link:'https://github.com/Kurdeo3/Portfolio.git',
+        bgImages: [
+        '/cover_portfolio.png'
+        ],
+        techIcons: [
+            assets.nextjs,
+            assets.react,
+            assets.framermotion,
+            assets.tailwind,
+            assets.vercel
+        ]
+    },
+
     {
         title: 'ReuseMart',
         description: 'ReuseMart is a cross-platform e-commerce application for second-hand goods, accessible via web and mobile. The platform supports buyers, organizations, consignees, and staff with tailored features. Buyers can easily purchase used items, while organizations may request item donations. Consignees are able to list their goods for sale, and staff members manage all operational aspects, including transactions and user activities. Developed using PHP, JavaScript, Bootstrap, Tailwind, and Laravel for the web, and Flutter with Dart for mobile, ReuseMart offers a seamless, scalable, and user-focused experience across platforms.',
