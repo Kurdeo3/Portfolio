@@ -120,7 +120,7 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Website Padukuhan Jarah III',
+        title: 'Padukuhan Jarah III',
         description: 'Padukuhan Jarah III Website is a village information and promotion platform built using Laravel, MySQL, and Tailwind CSS, designed to help the village share important information and showcase its local resources to the public. The website features sections for the village profile, local MSMEs (Micro, Small, and Medium Enterprises), news updates, population data, and photo galleries. It includes an admin dashboard that allows the village head to manage content easily—adding, updating, or deleting data related to population, MSMEs, news, and gallery. This system not only supports transparency and efficient data management but also serves as a digital tool to promote the village identity, economy, and community initiatives.',
         link:'https://github.com/Kurdeo3/Jarah_III.git',
         bgImages: [
